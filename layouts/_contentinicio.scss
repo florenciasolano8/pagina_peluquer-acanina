@@ -1,4 +1,5 @@
-.container-principio{
+.primersection{
+    .container-principio{
     display: flex;
     align-items: center;
     margin-bottom:40px;
@@ -7,20 +8,29 @@
         height: 400px;
         margin-right: 90px;
         margin-left: 60px;
+        margin-bottom: 15px;
 
     }
     .imgperro2{
         width: 350px;
         height: 380px;
-        margin-right: 120px;
+        margin-right: 95px;
 
     }
     .imgperro3{
         width: 380px;
         height: 500px;
     }
+}
     h1{
-        display: flex;
-      }
-    
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+      .botonreservar{
+        margin-top:20px;
+        margin-left: 80px !important;
+        margin-bottom: 100px;
+        background-color: #b5bdbd;
+        border-radius: 20px;
+    }
 }

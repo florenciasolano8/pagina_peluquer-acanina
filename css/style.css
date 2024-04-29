@@ -3,13 +3,14 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
+  margin: 8px;
 }
 header nav ul {
   list-style-type: none;
   margin-bottom: 50px;
 }
 header nav ul li {
-  margin-right: -8px;
+  margin-right: 8px;
   display: inline;
 }
 header nav ul li a {
@@ -22,7 +23,7 @@ header nav ul li a {
 header .logo {
   width: 300px;
   margin-top: 20px;
-  margin-left: 65px;
+  margin-left: 150px;
 }
 header .botonreservar {
   margin-bottom: 50px;
@@ -32,39 +33,107 @@ header .botonreservar {
   border-radius: 20px;
 }
 
-* {
-  margin: 8px;
-  padding: 0;
-}
-
 body {
   font-size: 16px;
   font-family: "Hanken Grotesk", sans-serif;
   background-color: #f0f1e8;
 }
 
-.container-principio {
+.primersection .container-principio {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
-.container-principio .imgperro1 {
+.primersection .container-principio .imgperro1 {
   width: 300px;
   height: 400px;
   margin-right: 90px;
   margin-left: 60px;
+  margin-bottom: 15px;
 }
-.container-principio .imgperro2 {
+.primersection .container-principio .imgperro2 {
   width: 350px;
   height: 380px;
-  margin-right: 120px;
+  margin-right: 95px;
 }
-.container-principio .imgperro3 {
+.primersection .container-principio .imgperro3 {
   width: 380px;
   height: 500px;
 }
-.container-principio h1 {
+.primersection h1 {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.primersection .botonreservar {
+  margin-top: 20px;
+  margin-left: 80px !important;
+  margin-bottom: 100px;
+  background-color: #b5bdbd;
+  border-radius: 20px;
+}
+
+.segundocontenedor {
+  margin: 0 !important;
+  background-color: #b5bdbd;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.segundocontenedor .giftperro {
+  margin-top: 50px;
+  width: 130px;
+  height: 150px;
+}
+.segundocontenedor h2 {
+  color: black;
+}
+.segundocontenedor p {
+  text-align: center;
+  width: 50%;
+}
+.segundocontenedor .botonreservar {
+  margin-bottom: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.servicios {
+  background-color: #42573E;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.servicios h3 {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-weight: bold;
+}
+.servicios .subtitulo {
+  margin-top: 15px;
+  font-size: 32px;
+  margin-left: 60px !important;
+}
+.servicios p {
+  margin-left: 60px;
+  width: 50%;
+}
+.servicios .botonreservar {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 100px !important;
+}
+.servicios .card1 .imgperro {
+  width: 350px;
+  height: 350px;
+}
+.servicios .card2 .imgperro {
+  width: 350px;
+  height: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */
