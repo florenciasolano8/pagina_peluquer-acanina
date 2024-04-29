@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  margin-right: -8px;
+  display: inline;
+}
+header nav ul li a {
+  text-decoration: none;
+  transition: 1s;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+header .logo {
+  width: 300px;
+  margin-top: 40px;
+}
+header .botonreservar {
+  margin-bottom: 30px;
+  margin-right: 100px !important;
+  color: black;
+  background-color: #b5bdbd;
+  border-radius: 20px;
+}
+
+* {
+  margin: 8px;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #f0f1e8;
+}
+
+.container-principio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.container-principio .imgperro1 {
+  width: 300px;
+  height: 400px;
+  margin-right: 90px;
+  margin-left: 60px;
+}
+.container-principio .imgperro2 {
+  width: 350px;
+  height: 380px;
+  margin-right: 120px;
+}
+.container-principio .imgperro3 {
+  width: 380px;
+  height: 500px;
+}
+.container-principio h1 {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css+.map */

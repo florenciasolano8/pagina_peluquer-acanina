@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:30px;
+    nav {
+
+        ul {
+            list-style-type: none;
+            margin-bottom:50px;
+
+            li {
+                margin-right: -8px;
+                display: inline;
+                a {
+                    text-decoration: none;
+                    transition: 1s;
+                    color:black;
+                    font-weight: bold;
+                    font-size: 12px;
+
+                }
+            }
+        }
+    }
+    .logo {
+        width: 300px;
+        margin-top: 20px;
+        margin-left:65px;
+    }
+    .botonreservar{
+        margin-bottom:50px;
+        margin-right: 100px !important;
+        color:black;
+        background-color: #b5bdbd;
+        border-radius: 20px;
+    }
+}
