@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: flex;
   align-items: center;
@@ -119,21 +120,74 @@ body {
 }
 .servicios p {
   margin-left: 60px;
-  width: 50%;
+  width: 70%;
+  margin-top: 40px;
 }
 .servicios .botonreservar {
+  margin-top: -60px;
   color: black;
   background-color: white;
   border-radius: 20px;
   margin-right: 100px !important;
 }
-.servicios .card1 .imgperro {
-  width: 350px;
-  height: 350px;
+.servicios .segundaseccion {
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
 }
-.servicios .card2 .imgperro {
-  width: 350px;
-  height: 350px;
+.servicios .segundaseccion .card1 {
+  border: 2px solid #000;
+  /* Puedes cambiar el grosor y el color del borde según tus preferencias */
+  padding: 5px;
+  background-color: #f0f1e8;
+  margin: 40px;
+  width: 415px;
+}
+.servicios .segundaseccion .card1 .imgperro {
+  width: 400px;
+  height: 400px;
+}
+.servicios .segundaseccion .card1 .titulocard {
+  font-size: 20px;
+  margin-left: 14px;
+}
+.servicios .segundaseccion .card1 .botonlugar {
+  background-color: #f0f1e8;
+  border-radius: 20px;
+  margin-top: -50px;
+}
+.servicios .segundaseccion .card1 .textocard {
+  margin-top: 15px;
+  margin-left: 14px;
+  width: 85%;
+}
+.servicios .segundaseccion .tijera {
+  width: 110px;
+  height: 120px;
+  margin-left: 1px;
+  margin-top: 650px;
+}
+
+.clientes {
+  background-color: #B6BEBE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clientes h3 {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-weight: bold;
+}
+.clientes .subtitulo {
+  margin-top: 15px;
+  font-size: 32px;
+  margin-left: 60px !important;
+}
+.clientes .imgperropeludo {
+  width: 200px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

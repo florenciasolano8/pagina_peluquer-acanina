@@ -1,50 +1,79 @@
-.servicios{
-    background-color:#42573E;
+.servicios {
+    background-color: #42573E;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    
-    h3{
+
+    h3 {
         margin-top: 130px;
         margin-bottom: 20px;
         margin-left: 60px;
         font-weight: bold;
-  }
-     .subtitulo{
-        margin-top:15px;
+    }
+
+    .subtitulo {
+        margin-top: 15px;
         font-size: 32px;
         margin-left: 60px !important;
-     }
-
-     p{
-        margin-left: 60px;
-        width: 50%;
-        }
-    
-        .botonreservar{
-         
-            color:black;
-            background-color: white;
-            border-radius: 20px;
-            margin-right: 100px !important;
-        }
-     .card1{
-        .imgperro{
-            width: 350px;
-            height: 350px;
-        }
-      }
-
-     .card2{
-        .imgperro{
-            width: 350px;
-            height: 350px;
-        }
-         }
-
-    // .card3{
-
-    //     }
-
     }
+
+    p {
+        margin-left: 60px;
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .botonreservar {
+        margin-top: -60px;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+        margin-right: 100px !important;
+    }
+
+    .segundaseccion {
+        display: flex;
+        flex-direction: row;
+        margin-left: 170px;
+        .card1 {
+            border: 2px solid #000;
+            /* Puedes cambiar el grosor y el color del borde según tus preferencias */
+            padding: 5px;
+            background-color: #f0f1e8;
+            margin: 40px;
+            width: 415px;
+
+            .imgperro {
+                width: 400px;
+                height: 400px;
+            }
+
+            .titulocard {
+                font-size: 20px;
+                margin-left: 14px;
+            }
+
+            .botonlugar {
+                background-color: #f0f1e8;
+                border-radius: 20px;
+                margin-top: -50px;
+            }
+
+            .textocard {
+                margin-top: 15px;
+                margin-left: 14px;
+                width: 85%;
+            }
+
+        }
+        .tijera{
+            width: 110px;
+            height: 120px;
+            margin-left: 1px;
+            margin-top:650px;
+        }
+    }
+
+}
+

@@ -1,0 +1,25 @@
+.clientes{
+    background-color: #B6BEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    h3 {
+        margin-top: 130px;
+        margin-bottom: 20px;
+        margin-left: 60px;
+        font-weight: bold;
+    }
+
+    .subtitulo {
+        margin-top: 15px;
+        font-size: 32px;
+        margin-left: 60px !important;
+    }
+
+    .imgperropeludo{
+        width: 200px;
+        height: 200px;
+    }
+
+}
