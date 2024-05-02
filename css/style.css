@@ -173,21 +173,56 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.clientes h3 {
-  margin-top: 130px;
-  margin-bottom: 20px;
-  margin-left: 60px;
-  font-weight: bold;
-}
-.clientes .subtitulo {
-  margin-top: 15px;
-  font-size: 32px;
-  margin-left: 60px !important;
+  flex-direction: column;
 }
 .clientes .imgperropeludo {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 220px;
+  margin-right: 680px;
+}
+.clientes .arribadeimg {
+  display: flex;
+  flex-direction: column;
+  margin-top: -280px !important;
+  margin-bottom: -18px;
+  margin-right: 380px !important;
+}
+.clientes .arribadeimg h3 {
+  margin-top: 130px;
+  margin-left: 350px;
+  font-weight: bold;
+}
+.clientes .arribadeimg .subtitulo {
+  margin-top: 5px !important;
+  margin-top: 15px;
+  font-size: 32px;
+  margin-left: 335px !important;
+}
+.clientes .direcciondelascard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 30px !important;
+}
+.clientes .direcciondelascard .card1 {
+  border: 2px solid #000;
+  /* Puedes cambiar el grosor y el color del borde según tus preferencias */
+  padding: 5px;
+  background-color: #f0f1e8;
+  margin: 40px;
+  width: 320px;
+  margin-left: 60px !important;
+}
+.clientes .direcciondelascard .card1 .imgperrocliente {
+  width: 300px;
+  height: 250px;
+}
+.clientes .direcciondelascard .card1 .textocard {
+  margin-top: 25px;
+  margin-left: 14px;
+  width: 90%;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
