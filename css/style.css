@@ -246,7 +246,7 @@ footer {
 }
 footer .imgfooter {
   margin-top: 20px;
-  width: 150px;
+  width: 180px;
   margin-bottom: 50px;
 }
 footer .direcciondelascard {
@@ -257,13 +257,26 @@ footer .direcciondelascard {
 }
 footer .direcciondelascard .card1 {
   display: flex;
+  align-items: center;
   flex-direction: column;
   border: 2px solid #000;
   padding: 5px;
   background-color: #f0f1e8;
   margin: 40px;
-  width: 200px;
+  width: 250px;
   margin-left: 60px !important;
+}
+footer .direcciondelascard .card1 .separar {
+  display: flex;
+  flex-direction: row;
+}
+footer .direcciondelascard .card1 .separar p {
+  margin-right: 12px;
+}
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  width: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
