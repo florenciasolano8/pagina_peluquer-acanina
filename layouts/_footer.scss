@@ -6,8 +6,19 @@ footer {
 
     .imgfooter {
         margin-top: 20px;
+        margin-left: -10px;
         width: 180px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
+        }
+
+
+        form{
+            .btn-primary {
+                background-color: #f0f1e8; 
+                border-color: #f0f1e8;
+                color:black;
+        }
+         
         }
 
         .direcciondelascard {
@@ -32,10 +43,13 @@ footer {
                     flex-direction: row;
                 p{
                     margin-right: 12px;
-                }
+                }  
                 }
             }   
         }    
+
+
+
         .redes{
             display: flex;
             flex-direction: row;

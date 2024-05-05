@@ -1,0 +1,115 @@
+@media screen and (max-width: 767px) {
+header{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    nav{
+        display: none;
+    }
+    .logo{
+        margin-left: 10px !important;
+        width: 180px;
+    }
+    .botonreservar{
+        display: none !important;
+    }
+    
+    .navbar{
+        display: block;
+        margin-right: -150px !important;
+    }
+}
+
+.primersection{
+    .container-principio{
+    display: flex;
+     flex-direction: column;   
+}
+}
+
+.botonreservar{
+    width: 200px;
+}
+
+
+
+
+.servicios{
+    .botonreservar {
+        margin-top: 20px !important;
+        margin-left: 120px !important;
+    }
+
+ .segundaseccion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 0;
+
+ }   
+ 
+ .tijera{
+display: none;
+ }
+}
+
+.clientes{
+    .imgperropeludo{
+        margin-left: 15px;
+        width:120px;
+        height: 170px;
+    }
+    .arribadeimg{
+
+        h3{
+            margin-left: -60px !important;
+            margin-top:300px;
+        }
+        .subtitulo{
+          display: none;
+
+        }
+    }
+
+
+    .direcciondelascard{
+        display: flex;
+        flex-direction: column;
+
+        .card1{
+            margin-left: -260px !important;
+        }
+    }
+}
+
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column !important;
+
+    .textocard {
+        display: none;
+    }
+
+    .form {
+        margin-left:45px;
+        margin-top: 35px;
+    }
+}
+
+footer{
+    .direcciondelascard{
+        display: flex;
+        flex-direction: column;
+    }
+        .redes{
+            margin-left: -60px;
+        }
+}
+
+
+
+
+}

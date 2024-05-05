@@ -24,5 +24,14 @@ p{
     color:black;
     background-color: white;
     border-radius: 20px;
+    border: 2px solid #000; 
+    box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+    -webkit-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+    -moz-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: rotate(-5deg); 
+
+      }
 }
 }

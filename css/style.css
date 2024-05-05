@@ -6,6 +6,9 @@ header {
   margin-bottom: 30px;
   margin: 8px;
 }
+header .navbar {
+  display: none;
+}
 header nav ul {
   list-style-type: none;
   margin-bottom: 50px;
@@ -24,14 +27,22 @@ header nav ul li a {
 header .logo {
   width: 300px;
   margin-top: 20px;
-  margin-left: 150px;
+  margin-left: 240px !important;
 }
 header .botonreservar {
   margin-bottom: 50px;
   margin-right: 100px !important;
   color: black;
   background-color: #b5bdbd;
+  border: 2px solid #000;
   border-radius: 20px;
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  transition: transform 0.3s ease;
+}
+header .botonreservar:hover {
+  transform: rotate(-10deg);
 }
 
 body {
@@ -51,15 +62,27 @@ body {
   margin-right: 90px;
   margin-left: 60px;
   margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+.primersection .container-principio .imgperro1:hover {
+  transform: rotate(-20deg);
 }
 .primersection .container-principio .imgperro2 {
   width: 350px;
   height: 380px;
   margin-right: 95px;
+  transition: transform 0.3s ease;
+}
+.primersection .container-principio .imgperro2:hover {
+  transform: rotate(20deg);
 }
 .primersection .container-principio .imgperro3 {
   width: 380px;
   height: 500px;
+  transition: transform 0.3s ease;
+}
+.primersection .container-principio .imgperro3:hover {
+  transform: rotate(-20deg);
 }
 .primersection h1 {
   margin-left: 80px;
@@ -71,6 +94,14 @@ body {
   margin-bottom: 100px;
   background-color: #b5bdbd;
   border-radius: 20px;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  transition: transform 0.3s ease;
+}
+.primersection .botonreservar:hover {
+  transform: rotate(-10deg);
 }
 
 .segundocontenedor {
@@ -98,6 +129,14 @@ body {
   color: black;
   background-color: white;
   border-radius: 20px;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  transition: transform 0.3s ease;
+}
+.segundocontenedor .botonreservar:hover {
+  transform: rotate(-5deg);
 }
 
 .servicios {
@@ -129,6 +168,14 @@ body {
   background-color: white;
   border-radius: 20px;
   margin-right: 100px !important;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  transition: transform 0.3s ease;
+}
+.servicios .botonreservar:hover {
+  transform: rotate(-5deg);
 }
 .servicios .segundaseccion {
   display: flex;
@@ -142,6 +189,10 @@ body {
   background-color: #f0f1e8;
   margin: 40px;
   width: 415px;
+  transition: transform 0.3s ease;
+}
+.servicios .segundaseccion .card1:hover {
+  transform: rotate(-5deg);
 }
 .servicios .segundaseccion .card1 .imgperro {
   width: 400px;
@@ -154,7 +205,15 @@ body {
 .servicios .segundaseccion .card1 .botonlugar {
   background-color: #f0f1e8;
   border-radius: 20px;
-  margin-top: -50px;
+  margin-top: -60px;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 0.99);
+  transition: transform 0.3s ease;
+}
+.servicios .segundaseccion .card1 .botonlugar:hover {
+  transform: rotate(-5deg);
 }
 .servicios .segundaseccion .card1 .textocard {
   margin-top: 15px;
@@ -164,7 +223,7 @@ body {
 .servicios .segundaseccion .tijera {
   width: 110px;
   height: 120px;
-  margin-left: 1px;
+  margin-left: 10px;
   margin-top: 650px;
 }
 
@@ -203,7 +262,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-right: 30px !important;
+  margin-right: 40px !important;
 }
 .clientes .direcciondelascard .card1 {
   border: 2px solid #000;
@@ -212,7 +271,7 @@ body {
   background-color: #f0f1e8;
   margin: 40px;
   width: 320px;
-  margin-left: 60px !important;
+  margin-left: 75px !important;
 }
 .clientes .direcciondelascard .card1 .imgperrocliente {
   width: 300px;
@@ -237,6 +296,15 @@ body {
   margin-top: -180px;
   margin-bottom: 60px;
 }
+.formulario .form .btn-primary {
+  margin-top: 10px;
+  background-color: #f0f1e8;
+  border-color: #f0f1e8;
+  color: black;
+}
+.formulario .form .form-group {
+  margin-top: 10px;
+}
 
 footer {
   background-color: #B6BEBE;
@@ -246,8 +314,14 @@ footer {
 }
 footer .imgfooter {
   margin-top: 20px;
+  margin-left: -10px;
   width: 180px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+footer form .btn-primary {
+  background-color: #f0f1e8;
+  border-color: #f0f1e8;
+  color: black;
 }
 footer .direcciondelascard {
   display: flex;
@@ -277,6 +351,85 @@ footer .redes {
   display: flex;
   flex-direction: row;
   width: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header nav {
+    display: none;
+  }
+  header .logo {
+    margin-left: 10px !important;
+    width: 180px;
+  }
+  header .botonreservar {
+    display: none !important;
+  }
+  header .navbar {
+    display: block;
+    margin-right: -150px !important;
+  }
+  .primersection .container-principio {
+    display: flex;
+    flex-direction: column;
+  }
+  .botonreservar {
+    width: 200px;
+  }
+  .servicios .botonreservar {
+    margin-top: 20px !important;
+    margin-left: 120px !important;
+  }
+  .servicios .segundaseccion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .servicios .tijera {
+    display: none;
+  }
+  .clientes .imgperropeludo {
+    margin-left: 15px;
+    width: 120px;
+    height: 170px;
+  }
+  .clientes .arribadeimg h3 {
+    margin-left: -60px !important;
+    margin-top: 300px;
+  }
+  .clientes .arribadeimg .subtitulo {
+    display: none;
+  }
+  .clientes .direcciondelascard {
+    display: flex;
+    flex-direction: column;
+  }
+  .clientes .direcciondelascard .card1 {
+    margin-left: -260px !important;
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .formulario .textocard {
+    display: none;
+  }
+  .formulario .form {
+    margin-left: 45px;
+    margin-top: 35px;
+  }
+  footer .direcciondelascard {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .redes {
+    margin-left: -60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

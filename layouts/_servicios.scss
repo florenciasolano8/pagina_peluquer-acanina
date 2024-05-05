@@ -30,6 +30,15 @@
         background-color: white;
         border-radius: 20px;
         margin-right: 100px !important;
+        border: 2px solid #000; 
+        box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+        -webkit-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+        -moz-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: rotate(-5deg); 
+    
+          }
     }
 
     .segundaseccion {
@@ -43,10 +52,16 @@
             background-color: #f0f1e8;
             margin: 40px;
             width: 415px;
+            transition: transform 0.3s ease;
+            &:hover {
+                transform: rotate(-5deg); 
+        
+              }
 
             .imgperro {
                 width: 400px;
                 height: 400px;
+
             }
 
             .titulocard {
@@ -57,7 +72,16 @@
             .botonlugar {
                 background-color: #f0f1e8;
                 border-radius: 20px;
-                margin-top: -50px;
+                margin-top: -60px;
+                border: 2px solid #000; 
+                box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+                -webkit-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+                -moz-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.99);
+                transition: transform 0.3s ease;
+                &:hover {
+                    transform: rotate(-5deg); 
+            
+                  }
             }
 
             .textocard {
@@ -70,7 +94,7 @@
         .tijera{
             width: 110px;
             height: 120px;
-            margin-left: 1px;
+            margin-left: 10px;
             margin-top:650px;
         }
     }

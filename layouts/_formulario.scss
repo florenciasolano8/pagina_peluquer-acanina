@@ -12,5 +12,14 @@
         margin-left: 600px;
         margin-top:-180px;
         margin-bottom: 60px;
+        .btn-primary {
+            margin-top:10px;
+            background-color: #f0f1e8; 
+            border-color: #f0f1e8;
+            color:black;
+    }
+    .form-group {
+        margin-top: 10px;
+    }
     }
 }
