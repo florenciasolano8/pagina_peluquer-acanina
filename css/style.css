@@ -353,6 +353,22 @@ footer .redes {
   width: 30px;
 }
 
+.aseo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.aseo .imgperroaseo {
+  width: 400px;
+  height: 450px;
+  margin-left: 40px;
+}
+.aseo h1 {
+  margin-top: 180px;
+  margin-left: 20px;
+  width: 60%;
+}
+
 @media screen and (max-width: 767px) {
   header {
     display: flex;
