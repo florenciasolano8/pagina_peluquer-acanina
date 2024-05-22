@@ -99,9 +99,17 @@
         }
         /*CARDS DE LA PAG SERVICIOS*/
         .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             margin-top: 100px;
             margin-bottom: 100px;
             margin-left:50px;
+            transition: transform 0.3s ease;
+            &:hover {
+                transform: rotate(-5deg); 
+        
+              }
             .imgperroservicio{
                 width: 400px !important;
                 height: 300px;

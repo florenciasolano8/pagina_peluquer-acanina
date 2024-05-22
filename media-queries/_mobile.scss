@@ -16,7 +16,7 @@ header{
     
     .navbar{
         display: block;
-        margin-right: -150px !important;
+        margin-right: -140px !important;
     }
 }
 
@@ -110,6 +110,34 @@ footer{
 }
 
 
+.aseo{
+    display: flex;
+    flex-direction: column;
+    .imgperroaseo{
+        margin-top: 50px;
+        width: 300px;
+        height: 450px;
+    }
+    .subtitulodeaseo{
+        margin-top: -100px;
+    }
+}
 
+.servicios{
+    .segundaseccion{
+        .card{
+            width: 300px;
+            .imgperroservicio{
+                width: 298px !important;
+            }
+        }
+    }
+}
 
+.formulario{
+
+    form{
+        width: 350px;
+    }
+}
 }
